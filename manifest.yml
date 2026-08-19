@@ -1,0 +1,16 @@
+---
+applications:
+  - name: DM_DMS_PDF_CONVERTOR
+    memory: 1G
+    disk_quota: 2G
+    instances: 1
+    docker:
+      image: dm-dms-pdf-convertor:latest
+    health-check-type: http
+    health-check-http-endpoint: /health
+    random-route: true
+    services:
+      - BAS_DMC_SERVICE_KEY
+    env:
+      NODE_ENV: production
+      NODE_OPTIONS: "--max-old-space-size=512"
