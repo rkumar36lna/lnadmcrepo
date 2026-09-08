@@ -1,0 +1,12 @@
+NodeJS Library to manage tenant aware cache.
+Based on node-cache.
+
+# installation
+    npm install flexso-cf-tenantcache
+
+# Use the library
+   
+```javascript
+ 
+    
+```

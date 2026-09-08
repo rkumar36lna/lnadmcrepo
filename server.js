@@ -22,7 +22,8 @@ const CONFIG = {
   tempDir: path.join(__dirname, "temp"),
   maxFileSize: 50 * 1024 * 1024,
   allowedOrigins: [
-    "https://mladmcdev.execution.us20-quality.web.dmc.cloud.sap"
+    "https://mladmcdev.execution.us20-quality.web.dmc.cloud.sap",
+    "https://lnadmcqas.execution.us20-quality.web.dmc.cloud.sap"
   ]
 };
 
