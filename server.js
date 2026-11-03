@@ -23,7 +23,7 @@ const CONFIG = {
   maxFileSize: 50 * 1024 * 1024,
   allowedOrigins: [
     "https://mladmcdev.execution.us20-quality.web.dmc.cloud.sap",
-    "https://lnadmcqas.execution.us20-quality.web.dmc.cloud.sap"
+    "https://lnadmcqas-dmc.execution.us20-quality.web.dmc.cloud.sap"
   ]
 };
 
